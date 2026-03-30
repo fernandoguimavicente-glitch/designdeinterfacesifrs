@@ -1,0 +1,22 @@
+/* Cor 1 - títulos */
+h1, h2 {
+    color: blue;
+}
+
+/* Cor 2 - textos */
+p, li, label, table {
+    color: green;
+}
+
+/* Cor 3 - destaque */
+nav ul li:nth-child(2) {
+    color: red;
+}
+
+table tbody tr:nth-child(1) {
+    color: red;
+}
+
+label:nth-child(even) {
+    color: red;
+}
